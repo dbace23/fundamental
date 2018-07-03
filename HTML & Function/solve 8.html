@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        Ketik Kalimat<br> <input type ="text" id ="kalimat"><br><br>
+        Karakter yang dicari:<br> <input type ="text" id ="karakter"><br><br>
+        <input type='button' value='cari!' onclick="fungsi()">
+        <p id='txthasil'> hasil muncul disini </p>
+    </form>
+    <script>
+        function fungsi(){
+            console.log("click")
+            var kalimat1 = document.getElementById("kalimat").value;
+            var karakter1 = document.getElementById("karakter").value;
+            function hasil()
+        
+    
+            document.getElementById("txthasil").innerHTML=hasil;}
+    </script>
+
+
+</body>
+</html>
