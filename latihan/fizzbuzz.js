@@ -6,7 +6,7 @@ const fizzbuzz = (n) =>{
             console.log('fizz');
         }else if (x%3===0){
             console.log('buzz');
-        }else{console.log(x);} //test
+        }else{console.log(x);}
   }
 }
 fizzbuzz(20);
