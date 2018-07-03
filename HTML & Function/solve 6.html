@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        Masukan angka:<br> <input type ="text" id ="angka"><br><br>
+        <input type='button' value='kuadratkan!' onclick="kuadrat()">
+        <p id='txthasil'> hasil muncul disini </p>
+    </form>
+    <script>
+        function kuadrat(){
+            console.log("click")
+            var angka1 =Number(document.getElementById("angka").value);
+            var hasil = "Hasil " + angka1 + "=" + Math.pow(angka1,2);
+    
+            document.getElementById("txthasil").innerHTML=hasil;}
+    </script>
+
+
+</body>
+</html>
